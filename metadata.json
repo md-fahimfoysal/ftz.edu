@@ -1,0 +1,8 @@
+{
+  "name": "GlobalEdu Consultancy",
+  "description": "Comprehensive Student Consultancy Management Platform supporting Admin, Agent, and Student portals for managing university applications, scholarships, and documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

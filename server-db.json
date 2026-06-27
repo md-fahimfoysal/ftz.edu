@@ -1,0 +1,380 @@
+{
+  "systemSettings": {
+    "disableStudentLogin": false,
+    "disableStudentRegister": false,
+    "disableAgentLogin": false,
+    "disableAgentRegister": false
+  },
+  "users": [
+    {
+      "id": "usr-admin-primary",
+      "email": "ftz.edu.consultancy@gmail.com",
+      "name": "FTZ Consultancy Primary Admin",
+      "role": "admin",
+      "status": "approved",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+      "createdAt": "2026-06-18T17:23:38.563Z",
+      "password": "farhas@1234"
+    },
+    {
+      "id": "usr-admin-backup",
+      "email": "ftz.edu.backup@gmail.com",
+      "name": "FTZ Consultancy Backup Admin",
+      "role": "admin",
+      "status": "approved",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+      "createdAt": "2026-06-18T17:23:38.563Z",
+      "password": "farhas@1234"
+    },
+    {
+      "id": "usr-student-1",
+      "email": "student@globaledu.com",
+      "name": "Alex Rivera",
+      "role": "student",
+      "status": "approved",
+      "avatarUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200",
+      "createdAt": "2026-06-18T17:23:38.563Z"
+    },
+    {
+      "id": "usr-4phy26maq",
+      "email": "alex.rivera@gmail.com",
+      "name": "Alex Rivera",
+      "role": "student",
+      "status": "approved",
+      "avatarUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200",
+      "createdAt": "2026-06-18T17:37:31.702Z"
+    },
+    {
+      "id": "usr-37oz0fmxl",
+      "email": "raihankader02@gmail.com",
+      "name": "MD FAHIM FOYSAL",
+      "role": "student",
+      "status": "approved",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+      "createdAt": "2026-06-18T18:40:03.673Z",
+      "password": "fahim@1234"
+    }
+  ],
+  "countries": [
+    {
+      "id": "c-uk",
+      "name": "United Kingdom",
+      "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800",
+      "description": "World-renowned research centers with academic heritage like Oxford and Cambridge."
+    },
+    {
+      "id": "c-usa",
+      "name": "United States",
+      "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+      "description": "Home of Ivy League institutions boasting diverse programs and high entrepreneurship."
+    },
+    {
+      "id": "c-ca",
+      "name": "Canada",
+      "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&q=80&w=800",
+      "description": "Post-graduate work permit opportunities and highly welcoming student cultures."
+    },
+    {
+      "id": "c-de",
+      "name": "Germany",
+      "imageUrl": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&q=80&w=800",
+      "description": "Extremely affordable public universities with robust technical and engineering leads."
+    },
+    {
+      "id": "c-cn",
+      "name": "China",
+      "imageUrl": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&q=80&w=800",
+      "description": "Fast-developing high-tech industries and extensive fully-funded government programs."
+    },
+    {
+      "id": "c-ru",
+      "name": "Russia",
+      "imageUrl": "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&q=80&w=800",
+      "description": "Elite aeronautical, medical, and scientific state scholarship programs."
+    }
+  ],
+  "universities": [
+    {
+      "id": "u-oxford",
+      "name": "University of Oxford",
+      "countryId": "c-uk",
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800",
+      "programs": [
+        "Bachelor",
+        "Master",
+        "PhD"
+      ],
+      "subjects": [
+        "Computer Science",
+        "PPE",
+        "Biological Sciences",
+        "MBA"
+      ],
+      "scholarship": {
+        "isFullyFunded": true,
+        "title": "Clarendon Fund Academic Scholarship",
+        "description": "Fully covers tuition fees, college fees, and essential living costs for highly competitive applicants globally.",
+        "amount": "Full Tuition + £18,622/yr stipend"
+      }
+    },
+    {
+      "id": "u-tum",
+      "name": "Technical University of Munich",
+      "countryId": "c-de",
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-2010d522f13f?auto=format&fit=crop&q=80&w=800",
+      "programs": [
+        "Bachelor",
+        "Master"
+      ],
+      "subjects": [
+        "Aerospace Engineering",
+        "Data Science",
+        "Mechanical Engineering",
+        "Biotechnology"
+      ],
+      "scholarship": {
+        "isFullyFunded": true,
+        "title": "DAAD Tuition Waiver & Achievement award",
+        "description": "Designed for international outstanding talent in STEM portfolios, covering living expenses and general enrollment.",
+        "amount": "€1,200/month stipend + Free Tuition"
+      }
+    },
+    {
+      "id": "u-toronto",
+      "name": "University of Toronto",
+      "countryId": "c-ca",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800",
+      "programs": [
+        "Bachelor",
+        "Master",
+        "PhD"
+      ],
+      "subjects": [
+        "Artificial Intelligence",
+        "Finance",
+        "Civil Engineering",
+        "Biomedical Science"
+      ],
+      "scholarship": {
+        "isFullyFunded": false,
+        "title": "Lester B. Pearson International Scholarship",
+        "description": "Awarded annually to showcase outstanding academic achievement and creative thinking, covering full scholarship support.",
+        "amount": "Full Tuition + Book allowance"
+      }
+    },
+    {
+      "id": "u-harvard",
+      "name": "Harvard University",
+      "countryId": "c-usa",
+      "imageUrl": "https://images.unsplash.com/photo-1622397333309-30564018d53c?auto=format&fit=crop&q=80&w=800",
+      "programs": [
+        "Bachelor",
+        "Master",
+        "PhD"
+      ],
+      "subjects": [
+        "Computer Science",
+        "Business Administration",
+        "Economics",
+        "Law"
+      ],
+      "scholarship": {
+        "isFullyFunded": true,
+        "title": "Harvard Presidential Fellowship",
+        "description": "Premium tuition support and research fellowship awards for chosen graduate entrants.",
+        "amount": "Full Tuition + $42,000/yr stipend"
+      }
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1",
+      "studentId": "usr-student-1",
+      "studentName": "Alex Rivera",
+      "studentEmail": "student@globaledu.com",
+      "universityId": "u-toronto",
+      "universityName": "University of Toronto",
+      "countryId": "c-ca",
+      "countryName": "Canada",
+      "program": "Master",
+      "passportNumber": "P-A7812903",
+      "documents": [
+        {
+          "name": "Academic_Transcript.pdf",
+          "url": "#",
+          "size": "1.2 MB",
+          "uploadedAt": "2026-06-18T17:23:38.563Z"
+        },
+        {
+          "name": "Passport_Scan.jpg",
+          "url": "#",
+          "size": "820 KB",
+          "uploadedAt": "2026-06-18T17:23:38.563Z"
+        }
+      ],
+      "status": "Application Submitted",
+      "notes": [
+        {
+          "id": "n-1",
+          "author": "Director Administrator",
+          "authorRole": "admin",
+          "text": "Welcome, Alex! We have reviewed your initial grade forms. Please upload your formal IELTS or TOEFL transcripts to progress.",
+          "createdAt": "2026-06-18T15:23:38.563Z"
+        },
+        {
+          "id": "n-2",
+          "author": "Sarah Jenkins (Senior Agent)",
+          "authorRole": "agent",
+          "text": "Verified the passport details coordinate correctly. Reaching out with Toronto registrar tomorrow.",
+          "createdAt": "2026-06-18T16:23:38.563Z"
+        }
+      ],
+      "agentId": "usr-agent-1",
+      "createdAt": "2026-06-17T17:23:38.563Z"
+    },
+    {
+      "id": "app-mox1rk2dv",
+      "studentId": "usr-37oz0fmxl",
+      "studentName": "MD FAHIM FOYSAL",
+      "studentEmail": "raihankader02@gmail.com",
+      "universityId": "u-oxford",
+      "universityName": "University of Oxford",
+      "countryId": "c-uk",
+      "countryName": "United Kingdom",
+      "program": "Bachelor",
+      "passportNumber": "6676767676",
+      "documents": [
+        {
+          "name": "bank statment.jpg",
+          "url": "/uploads/1781870977619-bank_statment.jpg",
+          "size": "0.18 MB",
+          "uploadedAt": "2026-06-19T12:09:36.375Z"
+        }
+      ],
+      "status": "First Phase Passed",
+      "notes": [
+        {
+          "id": "note-init",
+          "author": "MD FAHIM FOYSAL",
+          "authorRole": "student",
+          "text": "54656656565",
+          "createdAt": "2026-06-19T12:09:38.375Z"
+        }
+      ],
+      "agentId": "usr-agent-1",
+      "createdAt": "2026-06-19T12:09:38.375Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "s-1",
+      "name": "Dr. Aris Thorne",
+      "role": "Chief Executive Officer",
+      "bio": "Over 15 years in international admissions leadership, previously coordinating college partnerships inside the UK and Canada.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=300"
+    },
+    {
+      "id": "s-2",
+      "name": "Clara Mendez",
+      "role": "Lead Visa Specialist",
+      "bio": "Specializes in high-success visa and migration compliance portfolios for European and North American academic channels.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300"
+    },
+    {
+      "id": "s-3",
+      "name": "John Sterling",
+      "role": "Senior Student Advisor",
+      "bio": "Devoted to custom profile branding and scholarship optimization, aiding thousands of scholars in unlocking fully funded seats.",
+      "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=300"
+    }
+  ],
+  "storageConfig": {
+    "destinationLink": "https://drive.google.com/drive/folders/1abc90823x_default_global_edu_storage",
+    "provider": "Google Drive"
+  },
+  "branding": {
+    "name": "FTZ EDU CONSULTANCY",
+    "logoText": "FTZ",
+    "primaryColor": "indigo",
+    "emailContact": "ftz.edu.consultancy@gmail.com",
+    "emailContact2": "ftz.edu.consultancy@gmail.com",
+    "welcomeTitle": "Future Track Zone - Guiding Your Future, Building Your Dreams",
+    "welcomeLetter": "Welcome to FTZ EDU CONSULTANCY (Future Track Zone), your accredited pathway partner to premier world-class universities and fully funded scholarship projects. Our specialized agency of international advisors works to eliminate the complex obstacles of enrollment, document attestation, and study academic clearances. We take pride in mentoring high-potential candidates to secure admits, fellowship awards, and visa clearances across the globe. Select and explore your prospective academic gateways below to coordinate with our designated Admissions Portal.",
+    "statsStudents": "12,500+",
+    "statsUniversities": "180+",
+    "statsScholarships": "$35,000,000+",
+    "statsVisaRate": "99.2%"
+  },
+  "scholarships": [
+    {
+      "id": "sch-u-oxford",
+      "title": "Clarendon Fund Academic Scholarship",
+      "description": "Fully covers tuition fees, college fees, and essential living costs for highly competitive applicants globally.",
+      "amount": "Full Tuition + £18,622/yr stipend",
+      "isFullyFunded": true,
+      "countryId": "c-uk",
+      "universityId": "u-oxford",
+      "universityName": "University of Oxford",
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    },
+    {
+      "id": "sch-u-tum",
+      "title": "DAAD Tuition Waiver & Achievement award",
+      "description": "Designed for international outstanding talent in STEM portfolios, covering living expenses and general enrollment.",
+      "amount": "€1,200/month stipend + Free Tuition",
+      "isFullyFunded": true,
+      "countryId": "c-de",
+      "universityId": "u-tum",
+      "universityName": "Technical University of Munich",
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-2010d522f13f?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    },
+    {
+      "id": "sch-u-toronto",
+      "title": "Lester B. Pearson International Scholarship",
+      "description": "Awarded annually to showcase outstanding academic achievement and creative thinking, covering full scholarship support.",
+      "amount": "Full Tuition + Book allowance",
+      "isFullyFunded": false,
+      "countryId": "c-ca",
+      "universityId": "u-toronto",
+      "universityName": "University of Toronto",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    },
+    {
+      "id": "sch-u-harvard",
+      "title": "Harvard Presidential Fellowship",
+      "description": "Premium tuition support and research fellowship awards for chosen graduate entrants.",
+      "amount": "Full Tuition + $42,000/yr stipend",
+      "isFullyFunded": true,
+      "countryId": "c-usa",
+      "universityId": "u-harvard",
+      "universityName": "Harvard University",
+      "imageUrl": "https://images.unsplash.com/photo-1622397333309-30564018d53c?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    },
+    {
+      "id": "sch-csc",
+      "title": "Chinese Government Scholarship (CSC)",
+      "description": "A prestigious fully-funded initiative by the Ministry of Education of China to support outstanding international students. Covers 100% tuition, free university accommodation, comprehensive medical insurance, and a monthly personal stipend of up to CNY 3,500/month.",
+      "amount": "100% Tuition + Free Accommodation + Stipend",
+      "isFullyFunded": true,
+      "countryId": "c-cn",
+      "universityName": "Various Chinese State Universities (Govt-Sponsored)",
+      "imageUrl": "https://images.unsplash.com/photo-1547989453-11e67ffb3885?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    },
+    {
+      "id": "sch-russia",
+      "title": "Russian Federation State fully-funded Fellowship",
+      "description": "An elite program sponsored by the Ministry of Education and science of Russian Federation, covering complete tuition costs, subsidized university accommodation, and monthly maintenance stipends for scientific / technical fields.",
+      "amount": "100% Tuition Waiver + Free University Dormitory",
+      "isFullyFunded": true,
+      "countryId": "c-ru",
+      "universityName": "Russian Federal & Scientific Institutes (Govt-Sponsored)",
+      "imageUrl": "https://images.unsplash.com/photo-1520106212299-d99c443e4568?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-06-18T17:23:38.564Z"
+    }
+  ]
+}
